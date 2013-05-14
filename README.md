@@ -40,7 +40,7 @@ Options
 
 Sample
 ---------
-`
+````javascript
 $(function () {  
   $("#slider_reboot-container").sliderreboot({  
     slideMovement: 100,  
@@ -53,5 +53,5 @@ $(function () {
     controlsSelector: "#slider-pagination a"  
   });  
 });  
-`
+`````
 
