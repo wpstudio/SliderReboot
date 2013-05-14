@@ -6,6 +6,18 @@ Example Code for a SliderReboot (BYOP) Training Class.  This code will be used t
 [Example Slider](http://wpchef.com/SliderReboot)
 
 * * *
+
+Compatibility
+----------------
+IE7+ / Firefox 3.6+ / Chrome 4+ / Safari 5+ / Opera 10+
+* * *
+Dependencies
+-----------------
+- jQuery 1.7.2
+- jQuery UI 1.8.18
+- jQuery Mobile Events
+- jQuery Transition
+* * *
 Options
 ----------
 **currentSlide** default: 0 - first slide to be active  
