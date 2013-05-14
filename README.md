@@ -54,4 +54,50 @@ $(function () {
   });  
 });  
 `````
+````html
+<div id="slider_reboot-container" class="slides">
+	<div class="item first">
+		<a href="#">
+			<div class="background">
+				<img src="background1.jpg" />
+				<div class="overlay"></div>
+			</div>
+			<div class="foreground">
+				<div class="element icon"></div>
+				<div class="element title">First Test</div>
+				<div class="element subtitle">lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lacus vei mi imperdiet mollis. Nulla at nisi quam, at porta magna.</div>
+			</div>
+		</a>
+	</div>
+	<div class="item">
+		<a href="#">
+			<div class="background">
+				<img src="background2.jpg" />
+				<div class="overlay"></div>
+			</div>
+			<div class="foreground">
+				<div class="element icon"></div>
+				<div class="element title">Second Test</div>
+				<div class="element subtitle">lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lacus vei mi imperdiet mollis. Nulla at nisi quam, at porta magna.</div>
+			</div>
+		</a>
+	</div>
+	<div class="item">
+		<a href="#">
+			<div class="background">
+				<img src="background3.jpg" />
+				<div class="overlay"></div>
+			</div>
+			<div class="foreground">
+				<div class="element icon"></div>
+				<div class="element title">Third Test</div>
+				<div class="element subtitle">lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lacus vei mi imperdiet mollis. Nulla at nisi quam, at porta magna.</div>
+			</div>
+		</a>
+	</div>
+</div>
+<p id="slider-pagination" class="pager">
+  <a href="#" rel="prev">Previous</a> - <a href="#" rel="next">Next</a>
+</p>
+````
 
