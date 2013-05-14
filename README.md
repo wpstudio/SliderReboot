@@ -13,10 +13,8 @@ IE7+ / Firefox 3.6+ / Chrome 4+ / Safari 5+ / Opera 10+
 * * *  
 Dependencies
 -----------------
-- jQuery 1.7.2
-- jQuery UI 1.8.18
-- jQuery Mobile Events
-- jQuery Transition
+ jQuery 1.7.2 /  jQuery UI 1.8.18  /  jQuery Mobile Events  /  jQuery Transition
+
 * * *  
 
 Options
