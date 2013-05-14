@@ -31,8 +31,73 @@ Options
 **itemDefaultZIndex** default: 10 - z-index assigned to each slide  
 **itemSelector** default: "div.item" - css selector used to find each slide  
 **itemLoadedClass** default: "loaded" - css class added right after a slide is loaded  
-**activeItemClass** default: "active" - css class added to the active slide
+**activeItemClass** default: "active" - css class added to the active slide  
 **itemBackgroundSelector** default: ".background img" - css selector used to find the background element of a slide  
 **itemForegroundElementSelector** default: ".foreground img" - css selector used to find the foreground element in a slide  
 **controlsSelector** default: undefined - css selector used to find the pagination links
+
+* * *
+
+Sample
+---------
+`
+$(function () {
+  $("#slider_reboot-container").sliderreboot({
+    slideMovement: 100,
+    slideSpeed: 1000,
+    easingType: "easeInOutQuart",
+    itemSelector: ".item",
+    itemBackgroundSelector: ".background",
+    elementSpeed: 1100,
+    itemForegroundElementSelector: ".foreground .element",
+    controlsSelector: "#slider-pagination a"
+  });
+});
+`
+`
+<div id="slider_reboot-container" class="slides">
+	<div class="item first">
+		<a href="#">
+			<div class="background">
+				<img src="background1.jpg" />
+				<div class="overlay"></div>
+			</div>
+			<div class="foreground">
+				<div class="element icon"></div>
+				<div class="element title">First Test</div>
+				<div class="element subtitle">lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lacus vei mi imperdiet mollis. Nulla at nisi quam, at porta magna.</div>
+			</div>
+		</a>
+	</div>
+	<div class="item">
+		<a href="#">
+			<div class="background">
+				<img src="background2.jpg" />
+				<div class="overlay"></div>
+			</div>
+			<div class="foreground">
+				<div class="element icon"></div>
+				<div class="element title">Second Test</div>
+				<div class="element subtitle">lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lacus vei mi imperdiet mollis. Nulla at nisi quam, at porta magna.</div>
+			</div>
+		</a>
+	</div>
+	<div class="item">
+		<a href="#">
+			<div class="background">
+				<img src="background3.jpg" />
+				<div class="overlay"></div>
+			</div>
+			<div class="foreground">
+				<div class="element icon"></div>
+				<div class="element title">Third Test</div>
+				<div class="element subtitle">lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lacus vei mi imperdiet mollis. Nulla at nisi quam, at porta magna.</div>
+			</div>
+		</a>
+	</div>
+</div>
+<p id="slider-pagination" class="pager">
+  <a href="#" rel="prev">Previous</a> - <a href="#" rel="next">Next</a>
+</p>
+`
 
